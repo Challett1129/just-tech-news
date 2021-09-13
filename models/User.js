@@ -18,7 +18,6 @@ User.init(
             type: DataTypes.INTEGER,
             //this is the equivalent of SQL's `NOT NULL` option
             allowNull: false,
-            
             primaryKey: true,
             autoIncrement: true
         },
